@@ -392,7 +392,7 @@ template {
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hover: var(--color-white);
+  --nav-item-link-hover: var(--color-primary);
   /* BUTTONS */
   --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
@@ -525,6 +525,7 @@ a:active {
 .nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: var(--color-white);
 }
 
 .nav .nav-link:hover {
@@ -693,6 +694,8 @@ ul.row {
   display: block;
   text-decoration: none;
   padding-top: 45%;
+  color: var(--color-light-grey);
+  padding-bottom: 45%;
 }
 
 .card-work .card-title a::after {
@@ -706,6 +709,7 @@ ul.row {
 
 .card-work:hover .card-title {
   opacity: 1;
+  color: var(--color-white);
 }
 
 .card-testimonial .card-quote {
@@ -731,6 +735,17 @@ ul.row {
   transform: scale(0.95);
 }
 
+.card-services .card-title a {
+  color: var(--color-black);
+}
+
+.card-services .card-title a:hover {
+  color: var(--color-white);
+}
+
+.card-blog h3 a {
+  color: var(--color-black);
+}
 /* FOOTER  */
 .footer {
   padding: var(--footer-padding);
@@ -763,6 +778,10 @@ ul.row {
   content: "";
   display: table;
   clear: both;
+}
+
+.footer-nav-link {
+  color: var(--color-white);
 }
 
 /* Add a dark theme to sections */
