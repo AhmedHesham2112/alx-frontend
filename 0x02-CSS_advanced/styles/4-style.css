@@ -17,6 +17,7 @@ html {
 }
 
 /* Do you know your color values? */
+
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
@@ -35,13 +36,14 @@ a {
   color: var(--text-color);
 }
 
-
 .visually-hidden {
   display: none;
 }
+
 .card-category {
   color: var(--color-primary);
 }
+
 .section-tagline {
   color: var(--color-primary);
 }
